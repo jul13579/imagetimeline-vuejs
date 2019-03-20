@@ -1,29 +1,29 @@
 {
-  "name": "timeline-vuejs",
+  "name": "imagetimeline-vuejs",
   "version": "1.0.4",
-  "main": "dist/timeline-vuejs.common.js",
-  "description": "Minimalist Timeline with VueJS",
+  "main": "dist/imagetimeline-vuejs.common.js",
+  "description": "Minimalist imagetimeline with VueJS",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name timeline-vuejs ./src/components/index.js",
+    "build-bundle": "vue-cli-service build --target lib --name imagetimeline-vuejs ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "keywords": [
-    "timeline",
-    "vue-timeline",
-    "timeline-vuejs",
-    "minimalist timeline",
-    "timeline components"
+    "imagetimeline",
+    "vue-imagetimeline",
+    "imagetimeline-vuejs",
+    "minimalist imagetimeline",
+    "imagetimeline components"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jul13579/timeline-vuejs"
+    "url": "git+https://github.com/jul13579/imagetimeline-vuejs"
   },
   "bugs": {
-    "url": "https://github.com/jul13579/timeline-vuejs/issues"
+    "url": "https://github.com/jul13579/imagetimeline-vuejs/issues"
   },
-  "homepage": "https://github.com/jul13579/timeline-vuejs",
+  "homepage": "https://github.com/jul13579/imagetimeline-vuejs",
   "author": "Pablo <psirera4@gmail.com>",
   "license": "MIT",
   "dependencies": {

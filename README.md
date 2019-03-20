@@ -1,26 +1,26 @@
 <h1 style="text-align: center;">Timeline Vuejs</h1>
 
-[![npm](https://img.shields.io/npm/v/timeline-vuejs.svg?colorB=brightgreen)](https://www.npmjs.com/package/timeline.vuejs)
+<!-- [![npm](https://img.shields.io/npm/v/timeline-vuejs.svg?colorB=brightgreen)](https://www.npmjs.com/package/timeline.vuejs)
 [![downloads](https://img.shields.io/npm/dw/timeline-vuejs.svg)](https://www.npmjs.com/package/timeline.vuejs)
-[![Twitter](https://img.shields.io/twitter/url/https/www.npmjs.com/package/timeline-vuejs.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Ftimeline-vuejs)
+[![Twitter](https://img.shields.io/twitter/url/https/www.npmjs.com/package/timeline-vuejs.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Ftimeline-vuejs) -->
 
 [Demo Timeline Vue](https://codesandbox.io/s/n094ypklvl)
 
 ## 📦 Install
 
 ```
-npm install timeline-vuejs --save
+npm install imagetimeline-vuejs --save
 ```
 
 ```js
 // main.js
-import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css'
+import '../node_modules/imgaetimeline-vuejs/dist/imagetimeline-vuejs.css'
 ```
 
 ```html
 // component.vue
 <script>
-  import Timeline from 'timeline-vuejs'
+  import Timeline from 'imagetimeline-vuejs'
 
   export default {
     // ...

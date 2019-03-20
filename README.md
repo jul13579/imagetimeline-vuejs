@@ -55,25 +55,29 @@ export default {
         from: new Date(2018, 7),
         title: 'Name',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.'
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kreta_-_Europastra%C3%9Fe75_1.jpg/500px-Kreta_-_Europastra%C3%9Fe75_1.jpg'
       },
       {
         from: new Date(2016, 1),
         title: 'Name',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.'
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kreta_-_Europastra%C3%9Fe75_1.jpg/500px-Kreta_-_Europastra%C3%9Fe75_1.jpg'
       },
       {
         from: new Date(2016, 6),
         title: 'Name',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.'
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kreta_-_Europastra%C3%9Fe75_1.jpg/500px-Kreta_-_Europastra%C3%9Fe75_1.jpg'
       },
       {
         from: new Date(2012, 1),
         title: 'Name',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.'
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Kreta_-_Europastra%C3%9Fe75_1.jpg/500px-Kreta_-_Europastra%C3%9Fe75_1.jpg'
       }
     ]
   })
@@ -116,4 +120,4 @@ export default {
 | uniqueTimeline     |       Boolean        | false                                                  | If true, the timeline isn't separated                       |
 | uniqueYear         |       Boolean        | false                                                  | If true, the timeline isn't separated when is the same year |
 | order              | String (desc or asc) |                                                        | Type of order                                               |
-| dateLocale | String | Locale of the browser | Type of locale, for example 'en-US' |
+| dateLocale         | String               | Locale of the browser                                  | Type of locale, for example 'en-US'                         |

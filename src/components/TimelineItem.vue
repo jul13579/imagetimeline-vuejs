@@ -1,16 +1,10 @@
 <template>
   <section class="timeline-item">
     <div class="item">
-      <span
-        :style="{ background: colorDots }"
-        class="dot"/>
+      <span :style="{ background: colorDots }" class="dot"/>
       <h3 class="month-item">{{ getNameMonth(itemTimeline) }}</h3>
-      <h4 
-        class="title-item" 
-        v-html="itemTimeline.title"/>
-      <p 
-        class="description-item" 
-        v-html="itemTimeline.description"/>
+      <h4 class="title-item" v-html="itemTimeline.title"/>
+      <p class="description-item" v-html="floatedImageDescription"/>
     </div>
   </section>
 </template>
@@ -30,6 +24,17 @@ export default {
     dateLocale: {
       type: String,
       default: ''
+    }
+  },
+  computed: {
+    floatedImageDescription() {
+      const itemTimeline = this.itemTimeline
+      return itemTimeline.image
+        ? '<img src="' +
+            itemTimeline.image +
+            '" class="description-image" />' +
+            itemTimeline.description
+        : itemTimeline.description
     }
   },
   methods: {
@@ -64,6 +69,11 @@ export default {
   .description-item {
     font-weight: 100;
     margin: 0;
+  }
+  .description-image {
+    float: left;
+    height: 150px;
+    margin-right: 15px;
   }
   .dot {
     display: block;

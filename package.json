@@ -1,6 +1,6 @@
 {
   "name": "timeline-vuejs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/timeline-vuejs.common.js",
   "description": "Minimalist Timeline with VueJS",
   "scripts": {
@@ -18,12 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pablosirera/timeline-vuejs"
+    "url": "git+https://github.com/jul13579/timeline-vuejs"
   },
   "bugs": {
-    "url": "https://github.com/pablosirera/timeline-vuejs/issues"
+    "url": "https://github.com/jul13579/timeline-vuejs/issues"
   },
-  "homepage": "https://github.com/pablosirera/timeline-vuejs",
+  "homepage": "https://github.com/jul13579/timeline-vuejs",
   "author": "Pablo <psirera4@gmail.com>",
   "license": "MIT",
   "dependencies": {

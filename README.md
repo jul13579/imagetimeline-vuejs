@@ -14,7 +14,7 @@ npm install imagetimeline-vuejs --save
 
 ```js
 // main.js
-import '../node_modules/imgaetimeline-vuejs/dist/imagetimeline-vuejs.css'
+import '../node_modules/imagetimeline-vuejs/dist/imagetimeline-vuejs.css'
 ```
 
 ```html

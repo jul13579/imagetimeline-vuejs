@@ -1,6 +1,6 @@
 {
   "name": "imagetimeline-vuejs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/imagetimeline-vuejs.common.js",
   "description": "Minimalist imagetimeline with VueJS",
   "scripts": {

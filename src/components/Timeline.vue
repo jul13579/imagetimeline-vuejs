@@ -20,6 +20,7 @@
         <TimelineItem
           :item-timeline="timelineContent"
           :date-locale="dateLocale"
+          :color-dots="colorDots"
         />
       </div>
     </div>

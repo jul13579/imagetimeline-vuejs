@@ -1,22 +1,26 @@
 <template>
   <section class="timeline">
-    <div 
-      v-if="hasItems" 
-      class="wrapper-timeline">
+    <div
+      v-if="hasItems"
+      class="wrapper-timeline"
+    >
       <div
         v-for="(timelineContent, timelineIndex) in dataTimeline"
         :class="wrapperItemClass(timelineIndex)"
-        :key="timelineIndex">
+        :key="timelineIndex"
+      >
         <div class="section-year">
           <p
             v-if="hasYear(timelineContent)"
-            class="year">
+            class="year"
+          >
             {{ getYear(timelineContent) }}
           </p>
         </div>
-        <TimelineItem 
+        <TimelineItem
           :item-timeline="timelineContent"
-          :date-locale="dateLocale"/>
+          :date-locale="dateLocale"
+        />
       </div>
     </div>
     <p v-else>{{ messageWhenNoItems }}</p>
@@ -130,7 +134,7 @@ export default {
 .timeline {
   text-align: left;
   width: 100%;
-  max-width: 500px;
+  // max-width: 500px;
   .wrapper-timeline {
     position: relative;
   }

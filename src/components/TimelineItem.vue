@@ -1,10 +1,26 @@
 <template>
   <section class="timeline-item">
     <div class="item">
-      <span :style="{ background: colorDots }" class="dot"/>
+      <span
+        :style="{ background: colorDots }"
+        class="dot"
+      />
       <h3 class="month-item">{{ getNameMonth(itemTimeline) }}</h3>
-      <h4 class="title-item" v-html="itemTimeline.title"/>
-      <p class="description-item" v-html="floatedImageDescription"/>
+      <h4
+        class="title-item"
+        v-html="itemTimeline.title"
+      />
+      <div class="description-item">
+        <img
+          v-if="itemTimeline.image"
+          :src="itemTimeline.image"
+          class="description-image"
+        >
+        <p
+          style="margin-top: 0px"
+          v-html="itemTimeline.description"
+        />
+      </div>
     </div>
   </section>
 </template>
@@ -26,17 +42,6 @@ export default {
       default: ''
     }
   },
-  computed: {
-    floatedImageDescription() {
-      const itemTimeline = this.itemTimeline
-      return itemTimeline.image
-        ? '<img src="' +
-            itemTimeline.image +
-            '" class="description-image" />' +
-            itemTimeline.description
-        : itemTimeline.description
-    }
-  },
   methods: {
     getNameMonth(item) {
       const locale = this.dateLocale || navigator.language
@@ -51,7 +56,7 @@ export default {
 .timeline-item {
   .item {
     border-left: 5px solid #ccd5db;
-    padding: 20px 0 20px 15px;
+    padding: 20px 50px 20px 15px;
     position: relative;
   }
   .month-item {
@@ -65,15 +70,18 @@ export default {
     padding: 5px 0;
     font-size: 15px;
     font-weight: 500;
+    margin-bottom: 1em;
   }
   .description-item {
-    font-weight: 100;
+    font-weight: 1em;
     margin: 0;
+    overflow-y: auto;
   }
   .description-image {
     float: left;
-    height: 150px;
-    margin-right: 15px;
+    height: 10em;
+    margin-right: 1em;
+    margin-bottom: 1em;
   }
   .dot {
     display: block;
